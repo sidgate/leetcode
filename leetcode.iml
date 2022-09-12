@@ -10,7 +10,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" scope="TEST">
+    <orderEntry type="library" exported="" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" exported="" name="jetbrains.kotlinx.coroutines.core" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="junit.jupiter.params" level="project" />
+    <orderEntry type="module-library" exported="" scope="TEST">
       <library name="kotlin-test-junit5">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/kotlin-test-junit5-1.6.10.jar!/" />
@@ -24,11 +27,11 @@
           <root url="jar://$MODULE_DIR$/libs/junit-platform-commons-1.6.0.jar!/" />
           <root url="jar://$MODULE_DIR$/libs/junit-jupiter-engine-5.6.0.jar!/" />
           <root url="jar://$MODULE_DIR$/libs/junit-platform-engine-1.6.0.jar!/" />
-          <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar!/" />
-          <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-reflect.jar!/" />
-          <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-test.jar!/" />
-          <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk7.jar!/" />
-          <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk8.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Kotlin/kotlinc/lib/kotlin-stdlib.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Kotlin/kotlinc/lib/kotlin-reflect.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Kotlin/kotlinc/lib/kotlin-test.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Kotlin/kotlinc/lib/kotlin-stdlib-jdk7.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Kotlin/kotlinc/lib/kotlin-stdlib-jdk8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -43,15 +46,15 @@
           <root url="jar://$MODULE_DIR$/libs/junit-platform-commons-1.6.0-sources.jar!/" />
           <root url="jar://$MODULE_DIR$/libs/junit-jupiter-engine-5.6.0-sources.jar!/" />
           <root url="jar://$MODULE_DIR$/libs/junit-platform-engine-1.6.0-sources.jar!/" />
-          <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/" />
-          <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-reflect-sources.jar!/" />
-          <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-test-sources.jar!/" />
-          <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk7-sources.jar!/" />
-          <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk8-sources.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Kotlin/kotlinc/lib/kotlin-stdlib-sources.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Kotlin/kotlinc/lib/kotlin-reflect-sources.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Kotlin/kotlinc/lib/kotlin-test-sources.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Kotlin/kotlinc/lib/kotlin-stdlib-jdk7-sources.jar!/" />
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/Kotlin/kotlinc/lib/kotlin-stdlib-jdk8-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
+    <orderEntry type="module-library" exported="" scope="TEST">
       <library name="junit-jupiter-engine">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/junit-jupiter-engine-5.6.0.jar!/" />
@@ -72,7 +75,5 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
-    <orderEntry type="library" scope="TEST" name="junit.jupiter.params" level="project" />
   </component>
 </module>
